@@ -1,11 +1,10 @@
 <html>
   
     <body>
-
+	<form action="./Zadanie2.php" method="POST">
 	Pseudonim <input type="text" name="pseudo" /><br>
 	Komentarz <textarea name='area'> </textarea><br>
 	<input type="submit" vaule="wyslij">
-	<form action="./Zadanie2.php" method="POST">
 	</form>
 	<?php
 

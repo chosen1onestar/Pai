@@ -19,11 +19,11 @@
 		echo "haslo: " . sha1($_POST['haslo']) . "<br>";} 
 		
 		if(isset($_POST['zapamietaj'])){
-			for($i=0; $i<count($_POST['zapamietaj']); $i++){			
-				echo "Zostało zaznaczone";
-			}
-		}else{ 
-				echo "Nie zostało wybrane";}	
+		echo "Wybrano";
+		}
+		else{ 
+			echo "Nie Wybrano";
+		}
 
 
 	?>
